@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/maria-mikhaleva/static/css/main.8bc4649f.css",
-    "main.js": "/maria-mikhaleva/static/js/main.7fd0f7dc.js",
+    "main.js": "/maria-mikhaleva/static/js/main.c8b894a1.js",
     "static/media/pet-project.png": "/maria-mikhaleva/static/media/pet-project.af662e539146bff863ab.png",
     "static/media/low-project.png": "/maria-mikhaleva/static/media/low-project.e90b3b0b53379a26c9fd.png",
     "static/media/IdealHouse-project.png": "/maria-mikhaleva/static/media/IdealHouse-project.8cf5dcb184b4bf9a66da.png",
@@ -17,10 +17,10 @@
     "static/media/main.png": "/maria-mikhaleva/static/media/main.20a0efb4a9217b7f4ce2.png",
     "index.html": "/maria-mikhaleva/index.html",
     "main.8bc4649f.css.map": "/maria-mikhaleva/static/css/main.8bc4649f.css.map",
-    "main.7fd0f7dc.js.map": "/maria-mikhaleva/static/js/main.7fd0f7dc.js.map"
+    "main.c8b894a1.js.map": "/maria-mikhaleva/static/js/main.c8b894a1.js.map"
   },
   "entrypoints": [
     "static/css/main.8bc4649f.css",
-    "static/js/main.7fd0f7dc.js"
+    "static/js/main.c8b894a1.js"
   ]
 }
