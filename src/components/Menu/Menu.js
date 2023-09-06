@@ -8,7 +8,7 @@ function Menu () {
     <nav>
       <ul className='nav-list'>
         <li className='item'>
-          <NavLink to='/'>
+          <NavLink to='/maria-mikhaleva'>
             <img src={mainPage} alt='main page' />
           </NavLink>
         </li>
