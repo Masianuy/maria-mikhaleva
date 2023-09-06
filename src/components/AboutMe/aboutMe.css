@@ -1,0 +1,74 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+}
+
+.about span {
+  border-bottom: 1px solid #6C8EA5;
+}
+
+.about p {
+  color: #EAF2F4;
+  padding: 0.2rem 9rem;
+  text-align: center;
+}
+
+.about .title {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  color: #EAF2F4;
+  font-weight: 500;
+}
+
+.technologies-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.technologies-item {
+  padding: 0.5rem 0.7rem;
+}
+
+.technologies-item img {
+  width: 55px;
+}
+
+@media screen and (max-width: 1080px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .about p {
+    padding: 0.2rem 3rem;
+  }
+}
+
+@media screen and (max-width: 734px) {
+  .technologies-list:last-child {
+    padding-bottom: 50px;
+  }
+  .about p {
+    font-size: 1em;
+    padding: 0.2rem 0rem;
+  }
+
+  .about .title {
+    font-size: 1.2em;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .technologies-item {
+    padding: 0.5rem;
+  }
+}

@@ -1,0 +1,45 @@
+nav {
+  background-color: #6C8EA5;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item a {
+  padding: 1.2rem 1rem;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.1em;
+  letter-spacing: 0.03em;
+  color: #EAF2F4;
+}
+.item a img {
+  width: 33px;
+  height: 33px;
+}
+
+.item a.active {
+  color: #673E20;
+}
+
+@media screen and (max-width: 588px) {
+  .item a {
+    padding: 1.2rem 1rem;
+    font-size: 1em;
+    letter-spacing: 0.03em;
+  }
+}
+@media screen and (max-width: 450px) {
+  .item a {
+    padding: 1.3rem 0.8rem;
+    font-size: 0.9em;
+    letter-spacing: 0.03em;
+  }
+}

@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import Menu from '../components/Menu/Menu';
+import TitlePage from '../components/TitlePage/TitlePage';
+import MyContacts from '../components/MyContacts/MyContacts';
 
-function Contacts() {
+function Contacts () {
   return (
-    <div>Contacts</div>
-  )
+    <>
+      <TitlePage title="Зв'язатись"/>
+      <MyContacts />
+      <Menu />
+    </>
+  );
 }
 
-export default Contacts
+export default Contacts;

@@ -1,9 +1,13 @@
-import React from 'react'
-
-function Home() {
+import React from 'react';
+import StartScreen from '../components/StartScreen/StartScreen';
+import Menu from '../components/Menu/Menu';
+function Home () {
   return (
-    <div>Home</div>
-  )
+    <>
+      <StartScreen />
+      <Menu />
+    </>
+  );
 }
 
-export default Home
+export default Home;

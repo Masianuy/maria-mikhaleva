@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import Menu from '../components/Menu/Menu';
+import TitlePage from '../components/TitlePage/TitlePage';
+import AboutMe from '../components/AboutMe/AboutMe';
 
-function About() {
+function About () {
   return (
-    <div>About</div>
-  )
+    <>
+      <TitlePage title='Про мене' />
+      <AboutMe />
+      <Menu />
+    </>
+  );
 }
 
-export default About
+export default About;

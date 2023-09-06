@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './routes/Home';
 import About from './routes/About';
@@ -8,17 +9,15 @@ import './App.css';
 
 function App () {
   return (
-    <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' exact element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/contacts' element={<Contacts />} />
           <Route path='/*' element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
-    </>
   );
 }
 

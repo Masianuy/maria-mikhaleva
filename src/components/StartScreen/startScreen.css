@@ -1,0 +1,70 @@
+.start-screen {
+  background-image: url('./../../image/main2.jpg');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.start-wrap {
+  max-width: 1440px;
+  padding: 100px;
+  margin: 0 auto;
+  height: 100%;
+  margin-top: -4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.position {
+  background-color: #673E20;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 0.8rem 1rem;
+  font-size: 1.2em;
+  color: #F8F6F1;
+  letter-spacing: 0.03em;
+}
+
+.first-name {
+  color: #673E20;
+  font-size: 5.5em;
+  line-height: 2;
+  letter-spacing: 0.007em;
+}
+
+@media screen and (max-width: 991px) {
+  .start-wrap {
+    padding: 100px 50px;
+  }
+}
+
+@media screen and (max-width: 901px) {
+  .start-wrap {
+    justify-content: space-between;
+  }
+
+  .position {
+    font-size: 1.1em;
+    align-self: end;
+    text-align: end;
+  }
+
+  .first-name {
+    font-size: 4.4em;
+    line-height: 2;
+  }
+}
+
+@media screen and (max-width: 721px) {
+  .start-wrap {
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .start-screen {
+    background-image: url('./../../image/mob2.jpg');
+  }
+}

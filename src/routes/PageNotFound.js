@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Menu from '../components/Menu/Menu';
 
-function PageNotFound() {
+function PageNotFound () {
   return (
-    <div>PageNotFound</div>
-  )
+    <>
+      <Menu />
+    </>
+  );
 }
 
-export default PageNotFound
+export default PageNotFound;
