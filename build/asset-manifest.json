@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/maria-mikhaleva/static/css/main.8bc4649f.css",
+    "main.js": "/maria-mikhaleva/static/js/main.61a56816.js",
+    "static/media/pet-project.png": "/maria-mikhaleva/static/media/pet-project.af662e539146bff863ab.png",
+    "static/media/low-project.png": "/maria-mikhaleva/static/media/low-project.e90b3b0b53379a26c9fd.png",
+    "static/media/IdealHouse-project.png": "/maria-mikhaleva/static/media/IdealHouse-project.8cf5dcb184b4bf9a66da.png",
+    "static/media/interior-design-project.png": "/maria-mikhaleva/static/media/interior-design-project.8f8550e69b4a5f907680.png",
+    "static/media/main2.jpg": "/maria-mikhaleva/static/media/main2.7addd28122fdbaeb4b61.jpg",
+    "static/media/mob2.jpg": "/maria-mikhaleva/static/media/mob2.d81978fccad2603adaca.jpg",
+    "static/media/sm-photo.jpg": "/maria-mikhaleva/static/media/sm-photo.cba5224503c461bac023.jpg",
+    "static/media/photoshop.png": "/maria-mikhaleva/static/media/photoshop.578891413fe47394a96e.png",
+    "static/media/illustrator.png": "/maria-mikhaleva/static/media/illustrator.96d931607caffc85cfb9.png",
+    "static/media/postgresql.png": "/maria-mikhaleva/static/media/postgresql.d4e9e468339f1f7a6c56.png",
+    "static/media/router.png": "/maria-mikhaleva/static/media/router.6c47a420b308b9f57b50.png",
+    "static/media/mongodb.png": "/maria-mikhaleva/static/media/mongodb.6f5707b0a59118f2d21b.png",
+    "static/media/main.png": "/maria-mikhaleva/static/media/main.20a0efb4a9217b7f4ce2.png",
+    "index.html": "/maria-mikhaleva/index.html",
+    "main.8bc4649f.css.map": "/maria-mikhaleva/static/css/main.8bc4649f.css.map",
+    "main.61a56816.js.map": "/maria-mikhaleva/static/js/main.61a56816.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bc4649f.css",
+    "static/js/main.61a56816.js"
+  ]
+}
