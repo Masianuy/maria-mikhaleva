@@ -26,7 +26,7 @@ function MyContacts () {
             <img src={facebook} alt='Facebook' />
             <span>Facebook</span>
           </Link>
-          <Link to='https://t.me/Masianuy'>
+          <Link to='https://t.me/zinger_13'>
             <img src={telegram} alt='Telegram' />
             <span>Telegram</span>
           </Link>

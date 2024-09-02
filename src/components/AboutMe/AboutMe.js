@@ -9,8 +9,6 @@ import redux from '../../image/icons/redux.png';
 import nodeJS from '../../image/icons/nodejs.png';
 import postgresql from '../../image/icons/postgresql.png';
 import mongoDB from '../../image/icons/mongodb.png';
-import router from '../../image/icons/router.png';
-import restAPI from '../../image/icons/restapi.png';
 import sequelize from '../../image/icons/sequelize.png';
 import figma from '../../image/icons/figma.png';
 import illustrator from '../../image/icons/illustrator.png';
@@ -60,13 +58,7 @@ function AboutMe () {
           <img src={redux} alt='redux' />
         </li>
         <li className='technologies-item'>
-          <img src={router} alt='router' />
-        </li>
-        <li className='technologies-item'>
           <img src={nodeJS} alt='nodeJS' />
-        </li>
-        <li className='technologies-item'>
-          <img src={restAPI} alt='restAPI' />
         </li>
       </ul>
       <ul className='technologies-list'>

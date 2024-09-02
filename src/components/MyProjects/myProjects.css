@@ -12,7 +12,7 @@
   flex-direction: column;
   justify-content: stretch;
   height: 370px;
-  color: #673E20;
+  color: var(--second);
 }
 
 .project-low {
@@ -70,13 +70,13 @@
 .project-links span {
   font-size: 1em;
   font-weight: 600;
-  color: #673E20;
+  color: var(--second);
   padding: 0 0.5rem;
   border-bottom: 1px solid transparent;
 }
 
 .project-links a:hover span {
-  border-bottom: 1px solid #673E20;
+  border-bottom: 1px solid var(--second);
 }
 
 .project-img {

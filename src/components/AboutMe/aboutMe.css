@@ -7,7 +7,7 @@
 }
 
 .about span {
-  border-bottom: 1px solid #6C8EA5;
+  border-bottom: 1px solid var(--main);
 }
 
 .about p {
